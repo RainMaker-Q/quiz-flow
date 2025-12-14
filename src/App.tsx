@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useQuiz } from './store/QuizContext';
-import { mockQuizData } from './data/mockQuiz';
+import {  quizDataWulin as mockQuizData  } from './data/wulin_mockQuiz';
 import type { PageState } from './types/quiz';
 import Question from './components/Question';
 import Result from './components/Result';
